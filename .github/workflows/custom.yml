@@ -49,7 +49,7 @@ on:
       build_args:
         description: 'Other args for build.py'
         required: false
-        default: '--ttf-only --least-styles'
+        default: '--cn-both --ttf-only --least-styles --cn-scale-factor 1.1'
         type: string
 
 permissions:
